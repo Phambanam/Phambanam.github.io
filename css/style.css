@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-size: 18px;
+}
+a{  
+	text-decoration: none;/*khong co gach chan duoi link*/
+	color:#696969; 
+}
+a:hover{
+	color:#adad90 /* khi click vao thi mau thay doi */
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+/* menu */
+.menu{
+	margin-top: 30px;/* cach phan tren */ 
+	margin-bottom: 20px;
+	text-align: center;
+}
+.menu ul li {
+	display: inline-block;
+	padding: 10px 20px;/*  parding cua casc phan  */
+	text-transform: uppercase;/* toan bo chu viet hoa */
+}
+.menu img{
+	margin:  0px 15px -20px;
+	
+}
+.menu img:hover{/* tao hieu ung bien mat nhap nay */
+	opacity:0;/*  khi di chuat vao no se bien mat */
+}
+/* Slide */
+.slide{
+	margin-top: 30px;
+	position: relative;
+}
+.slide .left{
+	width: 400px;
+	position: absolute;
+	left: 75px;
+	top: 200px;
+}
+.slide .left h2{
+	font-size: 80px;
+}
+.left p{
+	margin-top: 20px;
+}
+.btn{
+	padding: 15px 55px;
+	background-color: #758dba;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border:none;
+	margin-top: 20px;
+}
+.btn:hover{
+	background-color:#adad90;
+}
+.slide .right{
+	position: absolute;
+	bottom: 100px;
+	right: 200px;
+}
+.hidden{
+	background-color: rgba(0, 0, 0, 0);
+	margin-right:  40px;
+	color: #fff;
+	border: none;
+	font-size: 40px;/*  size chu cua button */
+	cursor: pointer;/*  khi con tro den se co hinh ban tay */
+}
+.hidden:hover{
+	color:#adad90 
+}
