@@ -9,8 +9,15 @@ a{
 	text-decoration: none;/*khong co gach chan duoi link*/
 	color:#696969; 
 }
+
 a:hover{
 	color:#adad90 /* khi click vao thi mau thay doi */
+}
+.footer a {
+	font-size: 25px;
+	font-style: normal;
+	float: left;
+	
 }
 .container{
 	width: 1200px;
